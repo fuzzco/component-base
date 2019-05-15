@@ -1,16 +1,16 @@
 <template>
     <main class="class">
-        <p>Demo for <code>MyComponent</code>:</p>
-        <my-component />
+        <p>Demo for <code>YourComponentName</code>:</p>
+        <your-component-name />
     </main>
 </template>
 
 <script>
-import MyComponent from '../src/MyComponent'
+import YourComponentName from '../src/YourComponentName'
 
 export default {
     components: {
-        'my-component': MyComponent
+        'your-component-name': YourComponentName
     }
 }
 </script>

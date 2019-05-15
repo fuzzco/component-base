@@ -1,12 +1,14 @@
 {
-    "name": "@fuzzco/super-image",
+    "name": "@fuzzco/your-component-name",
     "version": "1.0.0",
     "description": "All-in-one image component for Vue.",
-    "main": "dist/your-component.common.js",
+    "main": "dist/your-component-name.common.js",
     "scripts": {
         "dev": "vue-cli-service serve demo/main",
-        "build": "vue-cli-service build --target lib --name your-component-name src/YourComponentFile.vue",
-        "prepublish": "npm run build"
+        "prepublish": "npm run build",
+        "buildDemo": "vue-cli-service build --dest docs demo/main",
+        "buildLib": "vue-cli-service build --target lib --name your-component-name src/YourComponentName.vue",
+        "build": "npm run buildDemo && npm run buildLib"
     },
     "keywords": [],
     "author": "",
