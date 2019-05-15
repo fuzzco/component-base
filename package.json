@@ -8,7 +8,8 @@
         "prepublish": "npm run build",
         "buildDemo": "vue-cli-service build --dest docs demo/main",
         "buildLib": "vue-cli-service build --target lib --name your-component-name src/YourComponentName.vue",
-        "build": "npm run buildDemo && npm run buildLib"
+        "build": "npm run buildDemo && npm run buildLib",
+        "name": "./set-name.sh && rm ./set-name.sh"
     },
     "keywords": [],
     "author": "",
