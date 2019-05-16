@@ -5,5 +5,5 @@ read pascal
 # replace component names in files
 LC_ALL=C find ./ -type f -not -path "*node_modules*" -not -path "*.git*" -exec sed -i '' -e "s/your-component-name/$kebab/g" {} \; -exec sed -i '' -e "s/YourComponentName/$pascal/g" {} \;
 # update file name
-mv ./src/YourComponentName.vue "$pascal.vue"
+mv ./src/YourComponentName.vue "./src/$pascal.vue"
 echo "\033[0;32mDone! Component renamed successfully. Removing naming script.\033[0m"
