@@ -4,7 +4,7 @@ Boilerplate for Fuzzco Vue components.
 
 1. `degit fuzzco/component-base your-new-component-directory` (more info about [degit](https://github.com/Rich-Harris/degit))
 1. Open `your-new-component-directory` and run `npm run name` to name your component.
-1. See ``
+1. See [Development](#development) and [Deployment](#deployment) below.
 
 ## Development
 
