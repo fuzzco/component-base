@@ -5,6 +5,7 @@
     "main": "dist/your-component-name.common.js",
     "scripts": {
         "dev": "vue-cli-service serve demo/main",
+        "postinstall": "npm run name",
         "prepublish": "npm run build",
         "buildDemo": "vue-cli-service build --dest docs demo/main",
         "buildLib": "vue-cli-service build --target lib --name your-component-name src/YourComponentName.vue",
